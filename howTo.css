@@ -1,0 +1,21 @@
+body {
+  background-color: #060a21;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; 
+}
+
+h1 {
+    text-align:center;
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: #d6d4d4;
+}

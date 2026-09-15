@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Flock Game</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦜</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="game-container">
+    
+    <!-- Character Selection Screen -->
+    <div id="char-select">
+      <h1 id="title">Super Flock!</h1>
+      <h1 style="color: #fff; font-family: 'Courier New', monospace; margin-bottom: 20px;">
+        CHOOSE YOUR HERO
+      </h1>
+      
+      <div style="display: flex; justify-content: center; gap: 20px;">
+        <button id="btn-thunderwings" style="
+          background-color: #0088ff; 
+          color: white; 
+          padding: 15px 25px; 
+          font-family: 'Courier New', monospace; 
+          font-size: 16px; 
+          font-weight: bold; 
+          cursor: pointer;
+          border-radius: 4px;
+          border: none;
+        ">
+          THUNDERWINGS
+        </button>
+
+        <button id="btn-solarflair" style="
+          background-color: #ffee00; 
+          color: #000; 
+          border: none; 
+          padding: 15px 25px; 
+          font-family: 'Courier New', monospace; 
+          font-size: 16px; 
+          font-weight: bold; 
+          cursor: pointer;
+          border-radius: 4px;
+        ">
+          SOLAR FLAIR
+        </button>
+      </div>
+      <br>
+      <a href="/how_to_play.html">How to Play</a>
+    </div>
+    
+    <!-- Canvas -->
+    <canvas id="gameCanvas" width="800" height="400" style="display: none;"></canvas>
+
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
